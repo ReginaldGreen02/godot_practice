@@ -14,6 +14,10 @@ position = Vector2(203, -803)
 [node name="Player" parent="." instance=ExtResource("3_x5ufx")]
 position = Vector2(607, 420)
 
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(0.6, 0.6)
+position_smoothing_enabled = true
+
 [node name="Projectiles" type="Node2D" parent="."]
 
 [node name="Grenade" parent="." instance=ExtResource("4_l1c6l")]
