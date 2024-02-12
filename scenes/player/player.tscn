@@ -11,10 +11,11 @@ height = 126.0
 script = ExtResource("1_g3emd")
 
 [node name="PlayerImage" type="Sprite2D" parent="."]
+rotation = 1.5708
 texture = ExtResource("1_wj2tb")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 40)
+position = Vector2(-38, -4)
 shape = SubResource("CapsuleShape2D_c6bf2")
 
 [node name="laser_cd" type="Timer" parent="."]
@@ -24,6 +25,7 @@ one_shot = true
 [node name="grenade_cd" type="Timer" parent="."]
 
 [node name="LaserStartPosition" type="Node2D" parent="."]
+rotation = 1.5708
 
 [node name="Marker2D" type="Marker2D" parent="LaserStartPosition"]
 position = Vector2(19, -93)
